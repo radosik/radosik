@@ -1,8 +1,8 @@
-# Radik
+# Radomyr Moskalenko (`rados1k`)
 
 ![Profile banner](assets/banner.svg)
 
-I am Radik, a 21-year-old developer from Alicante, Spain, currently studying `1DAW`.
+I am Radomyr Moskalenko, also known as `rados1k`, a 21-year-old developer from Alicante, Spain, currently studying `1DAW`.
 
 I am focused on full-stack web development, interested in AI, and actively looking for a job where I can keep improving through real projects.
 

@@ -21,10 +21,11 @@
   <path d="M113 178H170" stroke="url(#accent)" stroke-width="11" stroke-linecap="round"/>
   <circle cx="185" cy="111" r="11" fill="#6CC3FF"/>
 
-  <text x="270" y="116" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">RADIK</text>
-  <text x="270" y="154" fill="#7AE7C7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">FULL-STACK WEB DEVELOPMENT • AI • AUDIO • GAMES</text>
-  <text x="270" y="198" fill="#D7E2F0" font-family="Arial, Helvetica, sans-serif" font-size="24">21 years old • Alicante, Spain • Studying 1DAW</text>
-  <text x="270" y="235" fill="#C2D2E4" font-family="Arial, Helvetica, sans-serif" font-size="22">Looking for a job and building stronger portfolio projects.</text>
+  <text x="270" y="108" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">RADOMYR MOSKALENKO</text>
+  <text x="270" y="142" fill="#7AE7C7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">@RADOS1K</text>
+  <text x="270" y="174" fill="#7AE7C7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">FULL-STACK WEB DEVELOPMENT • AI • AUDIO • GAMES</text>
+  <text x="270" y="216" fill="#D7E2F0" font-family="Arial, Helvetica, sans-serif" font-size="24">21 years old • Alicante, Spain • Studying 1DAW</text>
+  <text x="270" y="249" fill="#C2D2E4" font-family="Arial, Helvetica, sans-serif" font-size="22">Looking for a job and building stronger portfolio projects.</text>
 
   <rect x="270" y="258" width="188" height="30" rx="15" fill="#7AE7C7" fill-opacity="0.14" stroke="#7AE7C7" stroke-opacity="0.4"/>
   <text x="291" y="279" fill="#B8FFF0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">OPEN TO JUNIOR ROLES</text>
