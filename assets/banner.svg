@@ -1,0 +1,31 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09111F"/>
+      <stop offset="0.55" stop-color="#13233D"/>
+      <stop offset="1" stop-color="#194A63"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7AE7C7"/>
+      <stop offset="1" stop-color="#6CC3FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1088" cy="74" r="118" fill="#7AE7C7" fill-opacity="0.08"/>
+  <circle cx="1145" cy="228" r="84" fill="#6CC3FF" fill-opacity="0.10"/>
+  <circle cx="150" cy="274" r="104" fill="#7AE7C7" fill-opacity="0.06"/>
+
+  <rect x="72" y="64" width="154" height="154" rx="26" fill="#0E182B" stroke="#7AE7C7" stroke-opacity="0.4"/>
+  <path d="M117 168L141 121L165 168" stroke="url(#accent)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M113 178H170" stroke="url(#accent)" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="185" cy="111" r="11" fill="#6CC3FF"/>
+
+  <text x="270" y="116" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">RADIK</text>
+  <text x="270" y="154" fill="#7AE7C7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">FULL-STACK WEB DEVELOPMENT • AI • AUDIO • GAMES</text>
+  <text x="270" y="198" fill="#D7E2F0" font-family="Arial, Helvetica, sans-serif" font-size="24">21 years old • Alicante, Spain • Studying 1DAW</text>
+  <text x="270" y="235" fill="#C2D2E4" font-family="Arial, Helvetica, sans-serif" font-size="22">Looking for a job and building stronger portfolio projects.</text>
+
+  <rect x="270" y="258" width="188" height="30" rx="15" fill="#7AE7C7" fill-opacity="0.14" stroke="#7AE7C7" stroke-opacity="0.4"/>
+  <text x="291" y="279" fill="#B8FFF0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">OPEN TO JUNIOR ROLES</text>
+</svg>
