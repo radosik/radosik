@@ -49,20 +49,49 @@ I care about: a small set of well-chosen primitives over framework soup · multi
 
 ## Tech I work with day-to-day
 
-```text
-Languages    TypeScript · JavaScript · HTML · CSS · SQL
-Frontend     React · Tailwind · shadcn/ui · Radix · Three.js
-Backend      Node · Prisma · PostgreSQL · Wasp (TS fullstack DSL)
-Tooling      Playwright · i18next · Docker · Mailpit
-Interests    AI-assisted product workflows · multi-tenant SaaS · audio
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" title="Tailwind CSS" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" alt="Prisma" title="Prisma" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" alt="Three.js" title="Three.js" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" width="42" height="42"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" title="VS Code" width="42" height="42"/>
+</p>
+
+```yaml
+Languages: [TypeScript, JavaScript, HTML, CSS, SQL]
+Frontend:  [React, Tailwind, shadcn/ui, Radix, Three.js]
+Backend:   [Node, Prisma, PostgreSQL, Wasp (TS fullstack DSL)]
+Tooling:   [Playwright, i18next, Docker, Mailpit, GitHub Actions]
+Interests: [AI-assisted product workflows, multi-tenant SaaS, audio]
 ```
 
 ## GitHub at a glance
 
-<p>
-  <img height="160" alt="Radomyr's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=radosik&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&title_color=FF8A4B&icon_color=FFB976&text_color=D7E2F0&bg_color=0C1322"/>
-  <img height="160" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=radosik&layout=compact&hide_border=true&langs_count=8&title_color=FF8A4B&text_color=D7E2F0&bg_color=0C1322"/>
+<p align="left">
+  <img height="170" alt="Radomyr's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=radosik&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&title_color=FF8A4B&icon_color=FFB976&text_color=D7E2F0&bg_color=0C1322"/>
+  <img height="170" alt="GitHub streak" src="https://github-readme-streak-stats.herokuapp.com/?user=radosik&hide_border=true&background=0C1322&stroke=0C1322&ring=FF8A4B&fire=FFB976&currStreakLabel=FF8A4B&sideLabels=D7E2F0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8A97AD"/>
 </p>
+<p align="left">
+  <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=radosik&layout=compact&hide_border=true&langs_count=8&title_color=FF8A4B&text_color=D7E2F0&bg_color=0C1322"/>
+  <img height="170" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=radosik&theme=onedark&no-frame=true&no-bg=true&column=4&row=2&margin-w=8&margin-h=8"/>
+</p>
+
+### Contribution graph
+
+<!-- A snake "eats" the contribution squares; regenerated every 12h by .github/workflows/snake.yml -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/radosik/radosik/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/radosik/radosik/output/github-contribution-grid-snake.svg"/>
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/radosik/radosik/output/github-contribution-grid-snake.svg"/>
+</picture>
 
 ## Get in touch
 
