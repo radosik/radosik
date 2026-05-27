@@ -1,1 +1,1 @@
-Radomyr Moskalenko (rados1k), 21-year-old developer from Alicante, Spain. Studying 1DAW, interested in AI and full-stack web development, and currently looking for a job.
+Radomyr Moskalenko (@radosik) — full-stack engineer building TypeScript products. Based in Alicante, Spain. Currently building RMRoads AI, an open-source supply-chain disruption workbench (Wasp · React · Prisma · PostgreSQL).

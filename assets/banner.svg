@@ -1,32 +1,84 @@
-<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Radomyr Moskalenko — full-stack engineer building TypeScript products. Based in Alicante, Spain.">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#09111F"/>
-      <stop offset="0.55" stop-color="#13233D"/>
-      <stop offset="1" stop-color="#194A63"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1322"/>
+      <stop offset="1" stop-color="#08101F"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#7AE7C7"/>
-      <stop offset="1" stop-color="#6CC3FF"/>
+    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFC487"/>
+      <stop offset="1" stop-color="#FF8A4B"/>
     </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8A4B" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#FF8A4B" stop-opacity="0.55"/>
+      <stop offset="0.8" stop-color="#FF8A4B" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FF8A4B" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.04"/>
+    </pattern>
   </defs>
 
-  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
-  <circle cx="1088" cy="74" r="118" fill="#7AE7C7" fill-opacity="0.08"/>
-  <circle cx="1145" cy="228" r="84" fill="#6CC3FF" fill-opacity="0.10"/>
-  <circle cx="150" cy="274" r="104" fill="#7AE7C7" fill-opacity="0.06"/>
+  <rect width="1280" height="320" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="16" fill="url(#dots)"/>
 
-  <rect x="72" y="64" width="154" height="154" rx="26" fill="#0E182B" stroke="#7AE7C7" stroke-opacity="0.4"/>
-  <path d="M117 168L141 121L165 168" stroke="url(#accent)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M113 178H170" stroke="url(#accent)" stroke-width="11" stroke-linecap="round"/>
-  <circle cx="185" cy="111" r="11" fill="#6CC3FF"/>
+  <!-- Editorial monogram block -->
+  <g transform="translate(72, 80)">
+    <rect x="0" y="0" width="160" height="160" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5"/>
+    <text x="80" y="108" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="400" text-anchor="middle" letter-spacing="2">RM</text>
+    <line x1="58" y1="124" x2="102" y2="124" stroke="url(#amber)" stroke-width="2"/>
+    <text x="80" y="146" fill="#FFB976" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="3">RADOMYR M.</text>
+    <circle cx="148" cy="12" r="3" fill="url(#amber)"/>
+  </g>
 
-  <text x="270" y="108" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">RADOMYR MOSKALENKO</text>
-  <text x="270" y="142" fill="#7AE7C7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">@RADOS1K</text>
-  <text x="270" y="174" fill="#7AE7C7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">FULL-STACK WEB DEVELOPMENT • AI • AUDIO • GAMES</text>
-  <text x="270" y="216" fill="#D7E2F0" font-family="Arial, Helvetica, sans-serif" font-size="24">21 years old • Alicante, Spain • Studying 1DAW</text>
-  <text x="270" y="249" fill="#C2D2E4" font-family="Arial, Helvetica, sans-serif" font-size="22">Looking for a job and building stronger portfolio projects.</text>
+  <!-- Name -->
+  <text x="266" y="120" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">Radomyr Moskalenko</text>
 
-  <rect x="270" y="258" width="188" height="30" rx="15" fill="#7AE7C7" fill-opacity="0.14" stroke="#7AE7C7" stroke-opacity="0.4"/>
-  <text x="291" y="279" fill="#B8FFF0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">OPEN TO JUNIOR ROLES</text>
+  <!-- Handle -->
+  <circle cx="272" cy="156" r="4" fill="url(#amber)"/>
+  <text x="286" y="162" fill="#FFB976" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="19" font-weight="500">github.com/radosik</text>
+
+  <!-- Role -->
+  <text x="266" y="208" fill="#E5EBF5" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="500">Full-stack engineer building TypeScript products.</text>
+
+  <!-- Tech chips -->
+  <g font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">
+    <g transform="translate(266, 228)">
+      <rect width="92" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="46" y="18" fill="#D7E2F0" text-anchor="middle">TYPESCRIPT</text>
+    </g>
+    <g transform="translate(366, 228)">
+      <rect width="62" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="31" y="18" fill="#D7E2F0" text-anchor="middle">REACT</text>
+    </g>
+    <g transform="translate(436, 228)">
+      <rect width="56" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="28" y="18" fill="#D7E2F0" text-anchor="middle">NODE</text>
+    </g>
+    <g transform="translate(500, 228)">
+      <rect width="58" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="29" y="18" fill="#D7E2F0" text-anchor="middle">WASP</text>
+    </g>
+    <g transform="translate(566, 228)">
+      <rect width="66" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="33" y="18" fill="#D7E2F0" text-anchor="middle">PRISMA</text>
+    </g>
+    <g transform="translate(640, 228)">
+      <rect width="98" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="49" y="18" fill="#D7E2F0" text-anchor="middle">POSTGRESQL</text>
+    </g>
+  </g>
+
+  <!-- Bottom meta -->
+  <g transform="translate(266, 280)" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.6">
+    <circle cx="3" cy="-4" r="3" fill="url(#amber)"/>
+    <text x="16" y="0" fill="#8A97AD">ALICANTE · SPAIN</text>
+    <line x1="156" y1="-4" x2="170" y2="-4" stroke="#3F4A60" stroke-width="1"/>
+    <text x="184" y="0" fill="#8A97AD">AVAILABLE FOR WORK</text>
+    <line x1="356" y1="-4" x2="370" y2="-4" stroke="#3F4A60" stroke-width="1"/>
+    <text x="384" y="0" fill="#8A97AD">FOCUS · AI-ASSISTED PRODUCTS</text>
+  </g>
+
+  <!-- Bottom accent stripe (full width) -->
+  <rect x="0" y="316" width="1280" height="2" fill="url(#edge)"/>
 </svg>
