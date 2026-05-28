@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/radosik/RMRoads_Ai"><img alt="Featured: RMRoads AI" src="https://img.shields.io/badge/featured-RMRoads_AI-FF8A4B?style=flat-square&labelColor=0C1322"/></a>
+  <img alt="Building: prompt.Prompts" src="https://img.shields.io/badge/building-prompt.Prompts-FF8A4B?style=flat-square&labelColor=0C1322"/>
   <img alt="Based in Alicante, ES" src="https://img.shields.io/badge/based-Alicante%2C%20ES-0EA5E9?style=flat-square&labelColor=0C1322"/>
-  <img alt="Stack" src="https://img.shields.io/badge/stack-TypeScript%20%C2%B7%20React%20%C2%B7%20Node%20%C2%B7%20Wasp-94A3B8?style=flat-square&labelColor=0C1322"/>
+  <img alt="Stack" src="https://img.shields.io/badge/stack-TypeScript%20%C2%B7%20Next.js%20%C2%B7%20React%20%C2%B7%20Supabase-94A3B8?style=flat-square&labelColor=0C1322"/>
   <img alt="Available for work" src="https://img.shields.io/badge/availability-open%20to%20opportunities-22C55E?style=flat-square&labelColor=0C1322"/>
 </p>
 
@@ -17,26 +17,24 @@ I care about: a small set of well-chosen primitives over framework soup · multi
 
 ## Featured project
 
-### [RMRoads AI](https://github.com/radosik/RMRoads_Ai)
+### prompt.Prompts &nbsp;<sub>_current build · private repo, opening at launch_</sub>
 
-> Open-source supply-chain disruption response workbench. Rank shipment exception risk, compare recovery options (reroute, expedite, split, notify, wait), and approve the response before delays reach the customer.
+> **Write prompts that don't waste tokens.** A studio for authoring AI prompts, seeing exactly where tokens go, and tracking AI provider news — one tab instead of five.
 
-**Stack** — [Wasp](https://wasp.sh) (TypeScript fullstack DSL) · React 18 · Tailwind · shadcn/ui · Radix · PostgreSQL · Prisma · i18next · Playwright
+**Stack** — Next.js 16 (App Router, Turbopack) · React 19 · TypeScript 5 · Tailwind v4 · Supabase (Auth + Postgres + RLS) · [`@dnd-kit`](https://dndkit.com) · Framer Motion · [`gpt-tokenizer`](https://github.com/niieani/gpt-tokenizer) (`o200k_base`)
 
-**What's in it**
-- Deterministic, explainable risk scoring on a shipment exception queue
-- Scenario comparison across cost · ETA · customer risk · complexity
-- Multi-tenant workspaces — every Prisma write is org-scoped, with invitation flows
-- Approve / defer / reject decisions with full audit history and outcome tracking
-- Critical-alert email + weekly pilot-summary cron job
-- i18n in `en` / `de` / `fr` / `es`, dark-mode default with light-mode parity
-- CSV ingest as the only required integration to try it
-- OpenSaaS admin panel for pilot leads, tenant health, recommendation log review
-- Playwright E2E covering the core decision flow
+**Four jobs the product does**
 
-**Why it's interesting** — decision-support, not autopilot. Humans approve every action; the audit trail is automatic. MIT-licensed, no hosted version, no telemetry, no paid tier.
+- **Compose** — drag-and-drop fragment canvas. Typed snippets (role · goal · constraint · format · example · style · edge_case) with `{{placeholder}}` slots rendered as inline editable pills.
+- **Topics** — 8 curated kits (Programming · School · Motion Graphics · n8n · Marketing · Writing · Data Analysis · Roleplay) that retune the picker, fragments panel, and the analyzer's required-kinds set.
+- **Analyze** _(the wedge)_ — strength-score gauge (`0.45·coverage + 0.30·specificity + 0.25·efficiency`), "How to reach 100%" checklist, per-fragment token bar, real cost estimate. Local tokenization via `gpt-tokenizer` (`o200k_base`); Anthropic & Gemini exact counts via the providers' `count_tokens` endpoints behind a SHA256 cache.
+- **News** — single feed for OpenAI / Anthropic / Google DeepMind / Mistral / Meta AI / xAI / Cohere _(in progress)_.
 
-[**→ Repository**](https://github.com/radosik/RMRoads_Ai)  ·  [**→ Screenshots**](https://github.com/radosik/RMRoads_Ai#screenshots)  ·  [**→ Tech stack**](https://github.com/radosik/RMRoads_Ai#tech-stack)
+**Recent shipments** — real per-fragment tokenization · strength-score formula · version-history slide-over with restore · `@dnd-kit` polish with DragOverlay · exact-count server routes for Anthropic + Gemini · settings modal for user-pasted API keys · focus-the-target-fragment auto-scroll.
+
+**Design bar** — Emil Kowalski-tier motion with Linear / Vercel / Anthropic-docs restraint. Quiet greys, a single rainbow conic-gradient accent used sparingly.
+
+Repository opens at launch. Happy to walk through the build if it's relevant to the role.
 
 ## Other work
 
@@ -76,12 +74,7 @@ Interests: [AI-assisted product workflows, multi-tenant SaaS, audio]
 ## GitHub at a glance
 
 <p align="left">
-  <img height="170" alt="Radomyr's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=radosik&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&title_color=FF8A4B&icon_color=FFB976&text_color=D7E2F0&bg_color=0C1322"/>
-  <img height="170" alt="GitHub streak" src="https://github-readme-streak-stats.herokuapp.com/?user=radosik&hide_border=true&background=0C1322&stroke=0C1322&ring=FF8A4B&fire=FFB976&currStreakLabel=FF8A4B&sideLabels=D7E2F0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8A97AD"/>
-</p>
-<p align="left">
-  <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=radosik&layout=compact&hide_border=true&langs_count=8&title_color=FF8A4B&text_color=D7E2F0&bg_color=0C1322"/>
-  <img height="170" alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=radosik&theme=onedark&no-frame=true&no-bg=true&column=4&row=2&margin-w=8&margin-h=8"/>
+  <img height="195" alt="GitHub streak" src="https://github-readme-streak-stats.herokuapp.com/?user=radosik&hide_border=true&background=0C1322&stroke=0C1322&ring=FF8A4B&fire=FFB976&currStreakLabel=FF8A4B&sideLabels=D7E2F0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8A97AD"/>
 </p>
 
 ### Contribution graph
