@@ -40,7 +40,8 @@ Repository opens at launch. Happy to walk through the build if it's relevant to 
 
 | Project | What it is | Stack |
 |---|---|---|
-| [Easy-Calculator-Widget](https://github.com/radosik/Easy-Calculator-Widget) — [live demo](https://radosik.github.io/Easy-Calculator-Widget/) | Drop-in calculator widget for embedding | JavaScript |
+| [RMRoads AI](https://github.com/radosik/RMRoads_Ai) | Open-source supply-chain disruption response workbench — risk-scored shipment exceptions, scenario comparison, multi-tenant, human-approved audit trail | Wasp · React · Prisma · PostgreSQL |
+| [Easy-Calculator-Widget](https://github.com/radosik/Easy-Calculator-Widget) | Drop-in calculator widget for embedding | JavaScript |
 | [cryptoApi](https://github.com/radosik/cryptoApi) | Crypto market data viewer (CRA) | React · JavaScript |
 | [react-finance](https://github.com/radosik/react-finance) · [Finance-Control](https://github.com/radosik/Finance-Control) | Early experiments with personal-finance UI patterns | React · TypeScript |
 | [Ballon3D](https://github.com/radosik/Ballon3D) · [dermacorp3D](https://github.com/radosik/dermacorp3D) · [Three-cube](https://github.com/radosik/Three-cube) | Three.js scenes — older work, kept for visual context | Three.js |
