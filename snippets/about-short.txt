@@ -1,1 +1,1 @@
-Radomyr Moskalenko (@radosik), full-stack engineer based in Alicante, Spain. Focused on practical TypeScript products and AI-assisted tooling. Currently building RMRoads AI — a multi-tenant, open-source decision-support workbench for shipment planners (Wasp · React · Prisma · PostgreSQL · i18n · Playwright).
+Radomyr Moskalenko (@radosik). Full-stack developer who also runs the infrastructure. TypeScript · Swift · Rust, plus Google Workspace and AWS. Based in Alicante, Spain.

@@ -1,0 +1,17 @@
+<svg width="600" height="236" viewBox="0 0 600 236" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="prompt.Prompts: A studio for writing AI prompts that don't waste tokens. Compose from typed fragments, see where every token goes, get a strength score and cost.">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="600" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14181F"/><stop offset="1" stop-color="#0D1015"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="599" height="235" rx="16" fill="url(#g)" stroke="#232833"/>
+  <rect x="32" y="30" width="34" height="34" rx="9" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="49" y="53" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" font-weight="700" fill="#FF9F5A">P</text>
+  <text x="80" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-.5" fill="#ECEFF4">prompt.Prompts</text>
+  <rect x="496.8" y="32" width="71.19999999999999" height="26" rx="13" fill="#FF9F5A" fill-opacity=".12" stroke="#FF9F5A" stroke-opacity=".35"/>
+  <text x="532.4" y="49.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#FF9F5A">private</text>
+  <text x="32" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" letter-spacing=".6" fill="#5B6473">WEB APP · IN PROGRESS</text>
+  <text x="32" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="17.5" fill="#8B95A5">A studio for writing AI prompts that don't waste</text><text x="32" y="139" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="17.5" fill="#8B95A5">tokens. Compose from typed fragments, see where</text><text x="32" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="17.5" fill="#8B95A5">every token goes, get a strength score and cost.</text>
+  <line x1="32" y1="188" x2="568" y2="188" stroke="#FFFFFF" stroke-opacity=".06"/>
+  <text x="32" y="213" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14.5" fill="#A9B2C0">Next.js · React 19 · Supabase · Tailwind v4</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="600" height="236" viewBox="0 0 600 236" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="RMRoads AI: Disruption-response workbench for shipment planners: risk-scored exceptions, recovery scenarios and human approval with a full audit trail.">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="600" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14181F"/><stop offset="1" stop-color="#0D1015"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="599" height="235" rx="16" fill="url(#g)" stroke="#232833"/>
+  <rect x="32" y="30" width="34" height="34" rx="9" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="49" y="53" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" font-weight="700" fill="#FF9F5A">R</text>
+  <text x="80" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-.5" fill="#ECEFF4">RMRoads AI</text>
+  <rect x="527.2" y="32" width="40.8" height="26" rx="13" fill="#60A5FA" fill-opacity=".12" stroke="#60A5FA" stroke-opacity=".35"/>
+  <text x="547.6" y="49.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#60A5FA">MIT</text>
+  <text x="32" y="84" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" letter-spacing=".6" fill="#5B6473">OPEN-SOURCE WEB APP</text>
+  <text x="32" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="17.5" fill="#8B95A5">Disruption-response workbench for shipment planners:</text><text x="32" y="139" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="17.5" fill="#8B95A5">risk-scored exceptions, recovery scenarios and</text><text x="32" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="17.5" fill="#8B95A5">human approval with a full audit trail.</text>
+  <line x1="32" y1="188" x2="568" y2="188" stroke="#FFFFFF" stroke-opacity=".06"/>
+  <text x="32" y="213" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14.5" fill="#A9B2C0">Wasp · React · Prisma · PostgreSQL · Playwright</text>
+</svg>

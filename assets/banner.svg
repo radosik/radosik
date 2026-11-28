@@ -1,84 +1,59 @@
-<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Radomyr Moskalenko — full-stack engineer building TypeScript products. Based in Alicante, Spain.">
+<svg width="1280" height="340" viewBox="0 0 1280 340" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Radomyr Moskalenko. Full-stack developer who also runs the infrastructure. Alicante, Spain.">
+  <style>
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
+    @keyframes blink { 0%,100% { opacity: 1 } 50% { opacity: 0 } }
+  </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0C1322"/>
-      <stop offset="1" stop-color="#08101F"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1117"/><stop offset="1" stop-color="#090B0E"/>
     </linearGradient>
-    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#FFC487"/>
-      <stop offset="1" stop-color="#FF8A4B"/>
-    </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF8A4B" stop-opacity="0"/>
-      <stop offset="0.2" stop-color="#FF8A4B" stop-opacity="0.55"/>
-      <stop offset="0.8" stop-color="#FF8A4B" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#FF8A4B" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.04"/>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(985 40) scale(420 260)">
+      <stop stop-color="#FF9F5A" stop-opacity=".16"/><stop offset="1" stop-color="#FF9F5A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".035"/>
     </pattern>
+    <linearGradient id="screen" x1="0" y1="40" x2="0" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151920"/><stop offset="1" stop-color="#0E1116"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1280" height="340" rx="18"/></clipPath>
   </defs>
 
-  <rect width="1280" height="320" rx="16" fill="url(#bg)"/>
-  <rect width="1280" height="320" rx="16" fill="url(#dots)"/>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="340" fill="url(#bg)"/>
+    <rect width="1280" height="340" fill="url(#grid)"/>
+    <rect width="1280" height="340" fill="url(#glow)"/>
 
-  <!-- Editorial monogram block -->
-  <g transform="translate(72, 80)">
-    <rect x="0" y="0" width="160" height="160" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5"/>
-    <text x="80" y="108" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="400" text-anchor="middle" letter-spacing="2">RM</text>
-    <line x1="58" y1="124" x2="102" y2="124" stroke="url(#amber)" stroke-width="2"/>
-    <text x="80" y="146" fill="#FFB976" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="3">RADOMYR M.</text>
-    <circle cx="148" cy="12" r="3" fill="url(#amber)"/>
+    <!-- left: identity -->
+    <text x="72" y="92" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#5B6473">~/radosik <tspan fill="#FF9F5A">$</tspan> whoami</text>
+    <text x="70" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.6" fill="#ECEFF4">Radomyr Moskalenko</text>
+    <text x="72" y="204" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" fill="#8B95A5">Full-stack developer who also runs the infrastructure.</text>
+    <text x="72" y="262" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14.5" fill="#8B95A5">
+      <tspan fill="#4ADE80" class="pulse">●</tspan><tspan dx="8">Alicante, ES</tspan><tspan dx="14" fill="#5B6473">/</tspan><tspan dx="14">TypeScript · Swift · Rust</tspan><tspan dx="14" fill="#5B6473">/</tspan><tspan dx="14">Workspace · AWS</tspan>
+    </text>
+
+    <!-- right: a laptop screen with the NotchTime island -->
+    <rect x="808" y="40" width="420" height="330" rx="20" fill="url(#screen)" stroke="#232833"/>
+    <!-- island -->
+    <rect x="868" y="40" width="300" height="54" rx="22" fill="#000000"/>
+    <rect x="868" y="40" width="300" height="24" fill="#000000"/>
+    <circle cx="896" cy="70" r="5" fill="#FF9F5A" class="pulse"/>
+    <text x="912" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#D9DEE6">profile redesign</text>
+    <text x="1146" y="75" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#FFFFFF">01:24:37</text>
+
+    <!-- faux editor -->
+    <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#5B6473">
+      <text y="138"><tspan x="840">01</tspan><tspan x="876" fill="#C792EA">const</tspan><tspan x="928" fill="#ECEFF4">stack</tspan><tspan x="978">= {</tspan></text>
+      <text y="164"><tspan x="840">02</tspan><tspan x="900" fill="#8B95A5">build:</tspan><tspan x="960" fill="#A5E3A1">["ts", "swift", "rust"]</tspan><tspan>,</tspan></text>
+      <text y="190"><tspan x="840">03</tspan><tspan x="900" fill="#8B95A5">run:</tspan><tspan x="960" fill="#A5E3A1">["workspace", "aws", "ad"]</tspan><tspan>,</tspan></text>
+      <text y="216"><tspan x="840">04</tspan><tspan x="900" fill="#8B95A5">ships:</tspan><tspan x="960" fill="#FF9F5A">true</tspan><tspan>,</tspan></text>
+      <text y="242"><tspan x="840">05</tspan><tspan x="876">}</tspan></text>
+    </g>
+    <rect x="892" y="230" width="8" height="16" fill="#FF9F5A" class="blink"/>
+    <rect x="840" y="272" width="210" height="8" rx="4" fill="#FFFFFF" fill-opacity=".05"/>
+    <rect x="840" y="292" width="150" height="8" rx="4" fill="#FFFFFF" fill-opacity=".04"/>
   </g>
-
-  <!-- Name -->
-  <text x="266" y="120" fill="#FFFFFF" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">Radomyr Moskalenko</text>
-
-  <!-- Handle -->
-  <circle cx="272" cy="156" r="4" fill="url(#amber)"/>
-  <text x="286" y="162" fill="#FFB976" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="19" font-weight="500">github.com/radosik</text>
-
-  <!-- Role -->
-  <text x="266" y="208" fill="#E5EBF5" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="500">Full-stack engineer building TypeScript products.</text>
-
-  <!-- Tech chips -->
-  <g font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">
-    <g transform="translate(266, 228)">
-      <rect width="92" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
-      <text x="46" y="18" fill="#D7E2F0" text-anchor="middle">TYPESCRIPT</text>
-    </g>
-    <g transform="translate(366, 228)">
-      <rect width="62" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
-      <text x="31" y="18" fill="#D7E2F0" text-anchor="middle">REACT</text>
-    </g>
-    <g transform="translate(436, 228)">
-      <rect width="56" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
-      <text x="28" y="18" fill="#D7E2F0" text-anchor="middle">NODE</text>
-    </g>
-    <g transform="translate(500, 228)">
-      <rect width="58" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
-      <text x="29" y="18" fill="#D7E2F0" text-anchor="middle">WASP</text>
-    </g>
-    <g transform="translate(566, 228)">
-      <rect width="66" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
-      <text x="33" y="18" fill="#D7E2F0" text-anchor="middle">PRISMA</text>
-    </g>
-    <g transform="translate(640, 228)">
-      <rect width="98" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.14"/>
-      <text x="49" y="18" fill="#D7E2F0" text-anchor="middle">POSTGRESQL</text>
-    </g>
-  </g>
-
-  <!-- Bottom meta -->
-  <g transform="translate(266, 280)" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.6">
-    <circle cx="3" cy="-4" r="3" fill="url(#amber)"/>
-    <text x="16" y="0" fill="#8A97AD">ALICANTE · SPAIN</text>
-    <line x1="156" y1="-4" x2="170" y2="-4" stroke="#3F4A60" stroke-width="1"/>
-    <text x="184" y="0" fill="#8A97AD">AVAILABLE FOR WORK</text>
-    <line x1="356" y1="-4" x2="370" y2="-4" stroke="#3F4A60" stroke-width="1"/>
-    <text x="384" y="0" fill="#8A97AD">FOCUS · AI-ASSISTED PRODUCTS</text>
-  </g>
-
-  <!-- Bottom accent stripe (full width) -->
-  <rect x="0" y="316" width="1280" height="2" fill="url(#edge)"/>
+  <rect x=".5" y=".5" width="1279" height="339" rx="17.5" stroke="#FFFFFF" stroke-opacity=".07"/>
 </svg>
